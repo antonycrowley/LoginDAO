@@ -14,13 +14,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        PersonDAO personDao = new PersonDAOImpl();
-        
-        List<Person> persons = personDao.getAllPersons();
-        
-        for(Person person : persons) {
-        	System.out.println(person);
-        }
+
     }
 }
